@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="53a3b62d-4ed3-4781-950b-d4bdbbf0fb15" name="udochudo.ru" url="http://udochudo.ru">
+        <fileTransfer host="udochudo.ru" port="22" rootFolder="/home/udochudo/udochudo.ru" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
