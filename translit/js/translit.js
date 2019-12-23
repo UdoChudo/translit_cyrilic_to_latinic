@@ -51,18 +51,6 @@ function cyrill_to_latin(text){
     return text;
 }
 
-function latin_to_cyrill(id){
-    // noinspection JSJQueryEfficiency
-    var text = $("#"+id).html();
-    for(var i=0; i<arren.length; i++){
-        var reg = new RegExp(arren[i], "g");
-        text = text.replace(reg, arrru[i]);
-    }
-    // noinspection JSJQueryEfficiency
-    $("#"+id).html(text);
-}
-
-
 function translit(){
 
     $("[name=result]").val(cyrill_to_latin($("[name=translit]").val()));
