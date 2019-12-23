@@ -41,7 +41,8 @@ var arren = ['YA','ya',
     'L','l',   'M','m',   'N','n',   'O','o',
     'P','p',   'R','r',   'S','s',   'T','t',
     'U','u',   'F','f',   'KH','kh', 'TS','ts',
-    'Y','y',   '‎','‎',     '‎','‎',     'E', 'e'];              /*Ъ*/      /*Ь*/
+    'Y','y',   '‎','‎',     '‎','‎',     'E', 'e'];
+                /*Ъ*/      /*Ь*/
 
 function cyrill_to_latin(text){
     for(var i=0; i<arrru.length; i++){
